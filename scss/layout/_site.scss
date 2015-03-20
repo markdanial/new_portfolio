@@ -1,0 +1,15 @@
+.l-site {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: row;
+	align-items: center;
+
+	.l-site-content {
+		flex: 1; /* 2 */
+		width: 100%;
+	}
+
+	.l-site-footer {
+		flex:none;
+	}
+}
